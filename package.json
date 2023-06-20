@@ -1,0 +1,25 @@
+{
+  "name": "telegram-bot-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "serve": "node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.2.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "input": "^1.0.1",
+    "telegram": "^2.17.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
